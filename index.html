@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Form</title>
+    <style>
+        .container {
+            width: 500px;
+            margin: 0 auto;
+            background-color: darkgrey;
+            height: 100vh;
+        }
+
+        .wrapper {
+            text-align: center;
+        }
+
+        input {
+            font-size: 30px;
+            width: 50%;
+        }
+
+        .label {
+            min-height: 20px;
+        }
+
+        label {
+            color: red;
+            display: none;
+        }
+
+        button {
+            font-size: 28px;
+            padding: 5px 30px;
+        }
+
+        #result {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            height: 26px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <h1>Add Form</h1>
+            <div>
+                <input id="a"><br>
+                <div id="label1" class="label">
+                    <label for="a">Please enter correct number!</label>
+                </div>
+            </div>
+            <div>
+                <input id="b"><br>
+                <div id="label2" class="label">
+                    <label for="b">Please enter correct number!</label>
+                </div>
+            </div>
+            <br>
+            <div id="result"></div>
+            <button>Add</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
